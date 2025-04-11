@@ -1,0 +1,36 @@
+/* Default Light Mode */
+.App {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    height: 100vh; /* Ensure full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Dark Mode Styles */
+  .App.dark {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+  }
+  
+  /* Button styles for mode toggle */
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
